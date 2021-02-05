@@ -6,17 +6,51 @@ body {
   margin: auto;
 }
 
-main{
-
+.navbar {
+  max-width: 1000px;
+  background-color: #555;
+  overflow: auto;
 }
 
-a {
+.main{
+ padding: 10px 10px 10px 20px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; 
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+.main a {
   text-decoration: none;
   color: #000000;
   display: inline;
 }
 
-a:hover {
+.main a:hover {
+  color: blue
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  display: inline;
+}
+
+footer a:hover {
   color: blue
 }
 
@@ -26,9 +60,9 @@ img {
 }
 
 footer {
-  font-size: 20px;
-  position:fixed;
-  bottom: 0px;
-  width: 1000px;
-  text-align: center;
+font-size: 22px;
+position:fixed;
+bottom: 0px;
+width: 1000px;
+text-align: center;
 }
