@@ -34,11 +34,21 @@ footer a:hover {
 
 img {
   border-radius: 0;
-  margin-top: 80px;
+  margin-top: 8px;
 }
 footer {
 font-size: 22px;
 bottom: 0px;
 width: 1000px;
 text-align: center;
+}
+table {
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px
 }
