@@ -6,33 +6,11 @@ body {
   margin: auto;
 }
 
-.navbar {
-  max-width: 1000px;
-  background-color: #555;
-  overflow: auto;
-}
 
 .main{
  padding: 10px 10px 10px 20px;
 }
 
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 25%; 
-  text-align: center;
-}
-
-.navbar a:hover {
-  background-color: #000;
-}
-
-.navbar a.active {
-  background-color: #4CAF50;
-}
 
 .main a {
   text-decoration: none;
@@ -55,13 +33,11 @@ footer a:hover {
 }
 
 img {
-  border-radius: 50%;
+  border-radius: 0;
   margin-top: 80px;
 }
-
 footer {
 font-size: 22px;
-position:fixed;
 bottom: 0px;
 width: 1000px;
 text-align: center;
