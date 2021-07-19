@@ -1,16 +1,14 @@
 body {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  font-size: 20px;
+  font-size: 17px;
   padding: 0px 10px;
   max-width: 1000px;
   margin: auto;
 }
 
-
 .main{
  padding: 10px 10px 10px 20px;
 }
-
 
 .main a {
   text-decoration: none;
@@ -37,16 +35,18 @@ img {
   border-radius: 0%;
   margin-top: 8px;
 }
+
 footer {
 font-size: 22px;
 bottom: 0px;
 width: 1000px;
 text-align: center;
 }
+
 table {
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   border-collapse: collapse;
-  width: 70%;
+  width: 100%;
 }
 
 td, th {
