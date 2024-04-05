@@ -23,12 +23,12 @@
 }
 .profile_photo{
   float: left;
-  width: 30%;
+  width: 20%;
   padding: 7px;
 }
 .profile_text{
   float: left;
-  width: 70%;
+  width: 80%;
   padding: 7px;
 }
 .column {
